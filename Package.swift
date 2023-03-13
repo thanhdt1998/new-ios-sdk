@@ -1,3 +1,4 @@
+
 import PackageDescription
 
 let package = Package(
@@ -12,6 +13,6 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Mapbox",
-            path: "Mapbox.xcframework")
+            path: "Mapbox.framework")
     ]
 )

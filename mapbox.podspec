@@ -65,10 +65,10 @@ Pod::Spec.new do |spec|
   #
 
   spec.platform     = :ios
-  spec.platform     = :ios, "10.3"
+  # spec.platform     = :ios, "10.3"
 
   #  When using multiple platforms
-  spec.ios.deployment_target = "10.3"
+  spec.ios.deployment_target = "11"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
@@ -95,7 +95,7 @@ Pod::Spec.new do |spec|
   # spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
 
-  spec.platform      = :ios, "10.3"
+  # spec.platform      = :ios, "10.3"
   spec.ios.vendored_frameworks = 'Mapbox.framework'
   # spec.public_header_files = "Classes/**/*.h"
 
